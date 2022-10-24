@@ -1,0 +1,16 @@
+.catalogCard { 
+   height: 240px;
+   width: 240px;
+   background-color: #F9F9FC;
+   margin: 12px;
+   color: #22245A;
+   text-decoration: none;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 120%;
+   padding: 36px 30px;
+}
+.catalogCard img{
+   height: 80px;
+   width: auto;
+}
