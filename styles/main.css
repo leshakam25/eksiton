@@ -4,11 +4,13 @@ body {
 }
 
 .title {
-font-style: normal;
-font-weight: 800;
-font-size: 44px;
-line-height: 120%;
-text-transform: uppercase;
+   font-family: Montserrat;
+   font-size: 44px;
+   font-weight: 800;
+   line-height: 53px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   color: #22245A;
 }
 
 .text {
