@@ -1,0 +1,19 @@
+.commerceForm {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 715px;
+   border-radius: 120px;
+}
+
+.commerceFormTitle{ 
+   font-family: Montserrat;
+   font-size: 44px;
+   font-weight: 800;
+   line-height: 53px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: white;
+   max-width: 794px;
+   }
