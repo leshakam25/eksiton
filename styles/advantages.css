@@ -1,0 +1,16 @@
+.advantagesCards {
+   display: flex;
+   flex-flow: row wrap;
+}
+.advantagesCards div {
+   max-width: 312px;
+   display: flex;
+   flex-direction: column;
+}
+.advantagesCards div img{
+   width: 44px;
+   height: 44px;
+}
+.advantagesCards div *{
+margin: 8px 0;
+}
