@@ -1,7 +1,21 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+
+}
+
 .title {
 font-style: normal;
 font-weight: 800;
 font-size: 44px;
 line-height: 120%;
 text-transform: uppercase;
+}
+
+.text {
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: justify;
+
 }

@@ -1,0 +1,78 @@
+.customCard{
+   display: flex;
+   flex-direction: column;
+   max-width: 600px;
+   margin: 10px 20px;
+   height: 800px;
+   position: relative;
+}
+.customCard >*{
+   margin: 13px 0;
+}
+.customCard img{
+   width: 100%;
+   border-radius: 16px;
+}
+
+.customCardTitle {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 120%;
+   color:  #22245A;
+}
+   
+.customCardText {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 150%;
+   color: #22245A;
+}
+
+.customCardSubTitle{
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+color: #22245A;
+}
+
+.customCardSubText{
+   text-decoration: none;
+font-weight: 600;
+font-size: 18px;
+line-height: 120%;
+color: #22245A;
+display: flex;
+flex-flow: row nowrap;
+align-items: center;
+justify-content: center;
+}
+.customCardSubText svg{
+ margin-right: 8px;
+}
+.cardContent{
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+}
+
+.cardContent div:not(:last-child){
+   padding-right: 36px;
+}
+.cardContent div{
+   display: flex;
+   flex-direction: column;
+}
+.customCardButton{
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 150%;
+   color: #000000;
+   width: 170px;
+   height: 68px;
+   background: #FDB92F;
+   position: absolute;
+   bottom: 0;
+}
