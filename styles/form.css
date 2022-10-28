@@ -1,6 +1,8 @@
 .commerceForm {
    position: relative;
-
+   width: 100%;
+}
+.customForm{
 }
 .commerceFormBlock {
    display: flex;

@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/card.css" />
     <link rel="stylesheet" href="./styles/catalog.css" />
     <link rel="stylesheet" href="./styles/equipment.css" />
@@ -27,10 +28,32 @@
     <title>Eksiton</title>
   </head>
   <body>
+    <!-- header -->
+    <header style="background-color: #383755">
+      <div class="container-xxl">
+        <div class="subHeader">
+          <div>
+            <a href="#">INFO@EXITON-TEST.RU</a>
+            <a href="#">+7 812 317 37 37</a>
+          </div>
+          <div>
+            <a href="#">
+              <img src="./images/headerIcons/help-circle.svg" alt="" />
+              Задать вопрос</a
+            >
+            <a href="#">
+              <img src="/images/headerIcons/phone-call.svg" alt="" />
+              Свяжитесь с нами</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="navPanel"></div>
+    </header>
     <!-- catalog -->
     <section class="container-xxl">
       <span class="title">Каталог оборудования</span>
-      <div class="row">
+      <div class="catalog">
         <a href="" class="catalogCard">
           <img src="./images/icons/blockImage1.png" alt="" />
           <h4>Динамические</h4> </a
@@ -51,9 +74,9 @@
     </section>
 
     <!-- types of equipment -->
-    <section class="container-xxl">
+    <section class="container-xxl equipment">
       <span class="title">Типы оборудования</span>
-      <div class="row">
+      <div class="equipment">
         <a href="" class="equipmentCard">
           <img src="./images/blockImages/image 45.png" alt="" />
           <span>Разрывные машины</span>
@@ -647,7 +670,7 @@
     >
       <div class="commerceFormBlock">
         <div class="commerceFormTitle">Запросить коммерческое предложение</div>
-        <form class="commerceForm" action="">
+        <form class="customForm" action="">
           <input
             type="email"
             class="form-control form-control-lg"

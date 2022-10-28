@@ -1,6 +1,13 @@
+.catalog{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
 .catalogCard { 
-   height: 240px;
-   width: 240px;
+   height: 230px;
+   width: 230px;
    background-color: #F9F9FC;
    margin: 12px;
    color: #22245A;
