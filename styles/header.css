@@ -1,0 +1,26 @@
+.subHeader  {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 43px;
+}
+.subHeader div{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.subHeader div a {
+   text-decoration: none;
+   font-family: Montserrat;
+   font-size: 12px;
+   font-weight: 900;
+   line-height: 15px;
+   letter-spacing: 0em;
+   color: #ffffff;
+}
+.subHeader div a:not(:first-child) {
+   margin-left: 28px;
+}
