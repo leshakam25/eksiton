@@ -1,3 +1,7 @@
+.commerceForm {
+   position: relative;
+
+}
 .commerceFormBlock {
    display: flex;
    flex-direction: column;
@@ -17,9 +21,7 @@
    color: white;
    max-width: 794px;
    }
-   .commerceForm {
-      max-width: 515px;
-   }
+   
 
    .commerceForm input{
       background-color: transparent;

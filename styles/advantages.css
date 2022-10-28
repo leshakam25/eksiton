@@ -18,3 +18,7 @@
 .advantagesCards div *{
 margin: 8px 0;
 }
+.advantagesCards div span{
+   color: #22245A;
+   text-align: left;
+}
