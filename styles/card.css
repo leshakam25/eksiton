@@ -1,16 +1,16 @@
 .customCard{
    display: flex;
    flex-direction: column;
-   max-width: 600px;
    margin: 10px 20px;
    height: 800px;
    position: relative;
+   max-width: 600px;
 }
 .customCard >*{
    margin: 13px 0;
 }
 .customCard img{
-   width: 100%;
+   max-width: 600px;
    border-radius: 16px;
 }
 
@@ -46,7 +46,7 @@ font-size: 18px;
 line-height: 120%;
 color: #22245A;
 display: flex;
-flex-flow: row nowrap;
+flex-direction: row;
 align-items: center;
 justify-content: center;
 }
@@ -76,4 +76,9 @@ justify-content: center;
    background: #FDB92F;
    position: absolute;
    bottom: 0;
+}
+
+@media (max-width:638px) {
+   .customCard img{
+   display: none;}
 }
