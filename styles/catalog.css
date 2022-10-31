@@ -6,18 +6,40 @@
 }
 
 .catalogCard { 
-   height: 230px;
+   min-height: 230px;
    width: 230px;
    background-color: #F9F9FC;
    margin: 12px;
    color: #22245A;
    text-decoration: none;
-   font-size: 24px;
+   font-size: 20px;
    font-weight: 400;
    line-height: 120%;
-   padding: 36px 30px;
 }
 .catalogCard img{
    height: 80px;
    width: auto;
+   margin: 20px;
+}
+@media (max-width:769px) {
+   .catalog{
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .catalogCard { 
+      font-size: 15px;
+      min-height: 48px;
+      width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+   align-items: center;
+   }
+   .catalogCard img{
+   width: 56px;
+   height: auto;
+   }
+   }
 }
