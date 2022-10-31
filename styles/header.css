@@ -24,3 +24,66 @@
 .subHeader div a:not(:first-child) {
    margin-left: 28px;
 }
+
+
+/* navBar */
+nav {
+   min-height: 88px;
+  
+}
+
+.customNavBar{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.customNavBar form input{
+   width: 240px;
+   background-color: #E5E5E5;
+}
+.customNav { 
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.customNav  div a {
+   margin: 0 16px;
+color: #22245A;
+font-weight: 700;
+font-size: 16px;
+}
+.customNavItem {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.customNavItem a{
+   font-family: Montserrat;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 17px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #22245a;
+   text-transform: uppercase;
+}
+
+.collapseNavIcon {
+   display: none;
+}
+
+@media (max-width: 992px) {
+   .customSearch {display: none;}
+   .subHeaderCollapse {display: none;}
+   .collapseNavIcon {
+      display: block;
+   }
+}

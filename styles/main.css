@@ -19,7 +19,6 @@ body {
    line-height: 27px;
    letter-spacing: 0em;
    color: #22245A;
-   ;
 }
 .customButton {
    font-family: Montserrat;
@@ -29,6 +28,10 @@ body {
    letter-spacing: 0em;
    text-align: center;
    height: 79px;
-   color: #000000
-   ;
+   color: #000000;
+}
+
+@media (max-width:620px) {
+   .title {
+   font-size: 32px;}
 }

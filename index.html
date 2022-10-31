@@ -29,27 +29,142 @@
   </head>
   <body>
     <!-- header -->
-    <header style="background-color: #383755">
-      <div class="container-xxl">
-        <div class="subHeader">
-          <div>
-            <a href="#">INFO@EXITON-TEST.RU</a>
-            <a href="#">+7 812 317 37 37</a>
-          </div>
-          <div>
-            <a href="#">
-              <img src="./images/headerIcons/help-circle.svg" alt="" />
-              Задать вопрос</a
-            >
-            <a href="#">
-              <img src="/images/headerIcons/phone-call.svg" alt="" />
-              Свяжитесь с нами</a
-            >
+    <header>
+      <div>
+        <!-- subHeader -->
+
+        <div class="subHeaderCollapse" style="background-color: #383755">
+          <div class="subHeader container-xxl">
+            <div>
+              <a href="#">INFO@EXITON-TEST.RU</a>
+              <a href="#">+7 812 317 37 37</a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="./images/headerIcons/help-circle.svg" alt="" />
+                Задать вопрос</a
+              >
+              <a href="#">
+                <img src="/images/headerIcons/phone-call.svg" alt="" />
+                Свяжитесь с нами</a
+              >
+            </div>
           </div>
         </div>
+
+        <!-- navigation panel -->
+
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-xxl">
+            <!-- logo -->
+
+            <div class="customNav">
+              <!-- collapse button -->
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- logo -->
+
+              <div>
+                <img
+                  src="./images/icons/logo.png"
+                  alt=""
+                  style="width: 46px; height: 43px"
+                />
+                <a class="navbar-brand" href="#">ЭКСИТОН ТЕСТ</a>
+              </div>
+
+              <a class="collapseNavIcon" href="">
+                <img src="./images/icons/navIcon4.svg" alt="" />
+              </a>
+            </div>
+
+            <!-- menu -->
+
+            <div class="collapse navbar-collapse customNavBar" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item customNavItem">
+                  <img src="./images/icons/navIcon1.svg" alt="" />
+                  <a class="nav-link" aria-current="page" href="#"> каталог </a>
+                </li>
+
+                <li class="nav-item dropdown customNavItem">
+                  <img src="./images/icons/navIcon2.svg" alt="" />
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    о нас
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">пункт 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">пункт 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">пункт 3</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item customNavItem">
+                  <img src="./images/icons/navIcon3.svg" alt="" />
+                  <a class="nav-link" aria-current="page" href="#">сервис</a>
+                </li>
+
+                <li class="nav-item customNavItem">
+                  <img src="./images/icons/arrow-up-circle.svg" alt="" />
+                  <a class="nav-link" aria-current="page" href="#"
+                    >модернизация</a
+                  >
+                </li>
+
+                <li class="nav-item customNavItem">
+                  <img src="./images/icons/navIcon5.svg" alt="" />
+                  <a class="nav-link" aria-current="page" href="#">отзывы</a>
+                </li>
+                <li class="nav-item customNavItem">
+                  <img src="./images/icons/navIcon6.svg" alt="" />
+                  <a class="nav-link" aria-current="page" href="#">блог</a>
+                </li>
+                <li class="nav-item customNavItem">
+                  <img src="./images/icons/navIcon4.svg" alt="" />
+                  <a class="nav-link" aria-current="page" href="#">контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- search -->
+
+            <form class="customSearch" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Поиск"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </nav>
       </div>
       <div class="navPanel"></div>
     </header>
+
     <!-- catalog -->
     <section class="container-xxl">
       <span class="title">Каталог оборудования</span>
