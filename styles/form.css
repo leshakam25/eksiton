@@ -2,8 +2,7 @@
    position: relative;
    width: 100%;
 }
-.customForm{
-}
+
 .commerceFormBlock {
    display: flex;
    flex-direction: column;
@@ -22,12 +21,36 @@
    text-align: center;
    color: white;
    max-width: 794px;
-   }
+   text-transform: uppercase;
+}
    
+.commerceForm input{
+   background-color: transparent;
+   margin: 20px 0;
+   width: 100%;
+   height: 80px;
+}
 
-   .commerceForm input{
-      background-color: transparent;
-      margin: 20px 0;
-      width: 100%;
-      height: 80px;
+@media (max-width:769px) {
+   .commerceFormTitle{
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: center;
    }
+   .commerceForm input{
+
+   font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+   }
+   .commerceFormBlock {
+      padding-top: 56px;
+      padding-bottom:56px;
+   }
+}
