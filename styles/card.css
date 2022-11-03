@@ -4,17 +4,14 @@
    align-items: flex-start;
    justify-content: center; 
    margin: 10px 20px;
-   position: relative;
-   padding-bottom: 100px;
    max-width: 600px;
-   min-height: 830px;
 }
 .customCard >*{
    margin: 13px 0;
 }
 .customCard img{
-max-width: 100%;
-border-radius: 16px;
+   max-width: 100%;
+   border-radius: 16px;
 }
 
 .customCardTitle {
@@ -36,47 +33,78 @@ border-radius: 16px;
 }
 
 .customCardSubTitle{
-font-weight: 400;
-font-size: 15px;
-line-height: 150%;
-color: #22245A;
-
+   font-family: Montserrat;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #22245A;
 }
 
 .customCardSubText{
    text-decoration: none;
-font-weight: 600;
-font-size: 18px;
-line-height: 120%;
-color: #22245A;
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+   font-family: Montserrat;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left; 
+   color: #22245A;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
+
 .customCardSubText img{
- margin-right: 8px;
+   margin-right: 8px;
 }
-.cardContent{
+
+.cardContentFullPage{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: left;
 }
 
-.cardContent div:not(:last-child){
+.cardContentFullPage div:not(:last-child){
    padding-right: 36px;
 }
-@media (min-width:400   px) {
-   .cardContent div:not(:last-child){
+
+@media (min-width:400px) {
+   .cardContentFullPage div:not(:last-child){
       padding-right: none;
    }
 }
 
-.cardContent div{
+.cardContentFullPage div{
    display: flex;
    flex-direction: column;
 }
+.cardContentMobilePage {
+   display: none;
+}
+.cardContentMobilePage img{
+   margin: 8px;
+}
+
+.cardContentMobilePage div{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.cardContentMobilePage div a{
+   font-family: Montserrat;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 17px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #22245A;
+   text-decoration: none;
+}
+
 .customCardButton{
    font-weight: 600;
    font-size: 18px;
@@ -85,49 +113,40 @@ justify-content: center;
    width: 170px;
    height: 68px;
    background: #FDB92F;
-   position: absolute;
-   bottom: 0;
 }
 
 @media (max-width:769px) {
-   .cardContent div{
-      display: flex;
-      flex-direction: row;
-      
-   }
 
-.customCardTitle{
-   font-family: Montserrat;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-}
 
-.customCardText{
-   font-family: Montserrat;
-font-size: 13px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: justify;
-
-}
-   .customCardSubTitle, .customCardSubText{
+   .customCardTitle{
       font-family: Montserrat;
-      font-size: 14px;
+      font-size: 18px;
       font-weight: 600;
-      line-height: 17px;
+      line-height: 22px;
       letter-spacing: 0em;
       text-align: left;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding-right: 10px;
-      color: #22245A;
-
    }
-
+   .cardContentFullPage {
+      display: none;
+   }
+   .cardContentMobilePage {
+      display: block;
+   }
+   .customCardText{
+      font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: justify;
+   }
+   .customCardButton{
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #000000;
+      width: 136px;
+      height: 49px;
+      background: #FDB92F;
+   }
 }
